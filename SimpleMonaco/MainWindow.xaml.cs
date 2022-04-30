@@ -37,7 +37,7 @@ namespace SimpleMonaco
             ViewModel.Model.Loaded += async (model) =>
             {
                 MonacoWebView.Visibility = Visibility.Visible;
-                await Task.Delay(200);
+                await Task.Delay(100);
                 MonacoWebView.UpdateWindowPos();
             };
         }
